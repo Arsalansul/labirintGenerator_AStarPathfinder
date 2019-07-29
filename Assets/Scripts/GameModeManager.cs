@@ -31,7 +31,6 @@ namespace Assets.Scripts
             canvasGO.SetActive(true);
             game.wallsCreator.DestoryWalls();
             game = null;
-            //gameState = GameState.MainMenu;
             settings.GameOver = false;
         }
 
@@ -41,7 +40,6 @@ namespace Assets.Scripts
             canvasGO.SetActive(true);
             game.wallsCreator.DestoryWalls();
             game = null;
-            //gameState = GameState.MainMenu;
             settings.Win = false;
         }
 
